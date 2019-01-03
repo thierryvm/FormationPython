@@ -15,7 +15,7 @@ var_label = tkinter.StringVar()
 label = tkinter.Label(app, textvariable=var_label)
 
 
-var_label.set("Bonjour à tous")
+var_label.set("Hello wolrd !")
 print("Label: ", var_label.get())
 
 label.pack()
