@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31eff508-5c67-493c-8541-cccfd26dc1c3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/thier.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/juste_prix.py" beforeDir="false" afterPath="$PROJECT_DIR$/juste_prix.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,6 +15,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/formation_python$Variable.coverage" NAME="Variable Coverage Results" MODIFIED="1546529164307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/formation_python$func.coverage" NAME="func Coverage Results" MODIFIED="1546534504547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/formation_python$juste_prix.coverage" NAME="juste_prix Coverage Results" MODIFIED="1546621203128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/formation_python$formation_python.coverage" NAME="formation_python Coverage Results" MODIFIED="1546534492402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/formation_python$gestion_errors.coverage" NAME="gestion_errors Coverage Results" MODIFIED="1546617947209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
@@ -37,11 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gestion_errors.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="18" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="18" />
+            <state relative-caret-position="446">
+              <caret line="33" column="10" lean-forward="true" selection-end-line="34" />
             </state>
           </provider>
         </entry>
@@ -55,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/juste_prix.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" column="10" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
+            <state relative-caret-position="480">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
             </state>
           </provider>
         </entry>
@@ -99,6 +101,7 @@
         <option value="$PROJECT_DIR$/func.py" />
         <option value="$PROJECT_DIR$/Jason.py" />
         <option value="$PROJECT_DIR$/gestion_errors.py" />
+        <option value="$PROJECT_DIR$/juste_prix.py" />
       </list>
     </option>
   </component>
@@ -146,7 +149,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.gestion_errors">
+  <component name="RunManager" selected="Python.juste_prix">
     <configuration name="formation_python" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="formation_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -231,8 +234,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="juste_prix" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="formation_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/juste_prix.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.juste_prix" />
         <item itemvalue="Python.gestion_errors" />
         <item itemvalue="Python.func" />
         <item itemvalue="Python.Variable" />
@@ -256,7 +282,7 @@
       <workItem from="1546528967810" duration="2278000" />
       <workItem from="1546531883522" duration="2311000" />
       <workItem from="1546534221664" duration="2057000" />
-      <workItem from="1546617536171" duration="394000" />
+      <workItem from="1546617536171" duration="1867000" />
     </task>
     <task id="LOCAL-00001" summary="Activation du code teste">
       <created>1546534485908</created>
@@ -293,11 +319,18 @@
       <option name="project" value="LOCAL" />
       <updated>1546617685925</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="update">
+      <created>1546618004138</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1546618004138</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7040000" />
+    <option name="totallyTimeSpent" value="8513000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -312,8 +345,8 @@
     <frame x="1273" y="0" width="1294" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2617504" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49918434" visible="true" weight="0.2617504" />
+      <window_info id="Structure" order="1" sideWeight="0.5008157" side_tool="true" weight="0.2617504" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -326,8 +359,8 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32932165" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5008104" side_tool="true" weight="0.32932165" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49918962" weight="0.32932165" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49918962" visible="true" weight="0.32932165" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32932165" />
       <window_info active="true" anchor="bottom" id="GitHub Pull Requests" order="13" weight="0.32932165" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -339,13 +372,39 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Activation du code teste" />
     <MESSAGE value="petit changement" />
     <MESSAGE value="modification du label" />
-    <MESSAGE value="update" />
     <MESSAGE value="correction PEP8" />
-    <option name="LAST_COMMIT_MESSAGE" value="correction PEP8" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitattributes">
@@ -385,13 +444,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/juste_prix.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="10" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Variable.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -404,8 +456,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gestion_errors.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="18" />
+        <state relative-caret-position="446">
+          <caret line="33" column="10" lean-forward="true" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/juste_prix.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
     </entry>

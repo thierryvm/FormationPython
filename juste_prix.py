@@ -9,7 +9,7 @@ def main():
     NOMBRE_A_DEVINER = randint(1, 100)
     while i < NOMBRE_ESSAIS:
         try:
-            essais = int(input(f'Entrez un nombre entre 1 et 100 ({i + 1} essai): '))
+            essais = int(input(f'Entrez un nombre ({i + 1} essai): '))
         except ValueError:
             print("Désolé, tu dois entrer un nombre !")
         else:
